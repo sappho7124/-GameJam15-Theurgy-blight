@@ -1,6 +1,6 @@
 {
   "$GMTileSet":"",
-  "%Name":"Basement",
+  "%Name":"Basement_Tile_WIP",
   "autoTileSets":[
     {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
         11,15,14,12,13,9,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -11,7 +11,7 @@
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"Basement",
+  "name":"Basement_Tile_WIP",
   "out_columns":4,
   "out_tilehborder":2,
   "out_tilevborder":2,
@@ -22,8 +22,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"Basement_WIP",
-    "path":"sprites/Basement_WIP/Basement_WIP.yy",
+    "name":"Basement_Tile_Sprite_WIP",
+    "path":"sprites/Basement_Tile_Sprite_WIP/Basement_Tile_Sprite_WIP.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
