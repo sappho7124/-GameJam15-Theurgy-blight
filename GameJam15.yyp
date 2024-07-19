@@ -45,6 +45,7 @@
     {"id":{"name":"Wall_Object","path":"objects/Wall_Object/Wall_Object.yy",},},
     {"id":{"name":"Basement_Room","path":"rooms/Basement_Room/Basement_Room.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Arms","path":"sprites/Arms/Arms.yy",},},
     {"id":{"name":"Basement_Tile_Sprite_WIP","path":"sprites/Basement_Tile_Sprite_WIP/Basement_Tile_Sprite_WIP.yy",},},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
     {"id":{"name":"Wood_Sprite","path":"sprites/Wood_Sprite/Wood_Sprite.yy",},},
