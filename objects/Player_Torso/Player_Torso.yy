@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite1",
-    "path":"sprites/Sprite1/Sprite1.yy",
+    "name":"legged_torso",
+    "path":"sprites/legged_torso/legged_torso.yy",
   },
   "spriteMaskId":null,
   "visible":true,
