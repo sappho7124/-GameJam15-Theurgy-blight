@@ -6,6 +6,7 @@ right_Key = keyboard_check(ord("D"));
 
 
 //player movement
+#region
 	//get direction
 	var _horizKey = right_Key - left_Key;
 	var _vertKey = down_Key - up_Key;
@@ -31,4 +32,18 @@ right_Key = keyboard_check(ord("D"));
 	//move the player
 	x+=xspd
 	y+=yspd
-	
+#endregion
+
+//player aiming
+	centerY = y + centerYOffset;
+	//aim
+	aimDir = point_direction(x,y,mouse_x,mouse_y);
+
+//sprite control
+#region
+	//animation
+	if (xspd == 0 && yspd == 0){
+		image_index = 0;
+	}
+
+#endregion
