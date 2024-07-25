@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_stick",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_stick",
   "overriddenProperties":[],
@@ -9,7 +11,10 @@
     "name":"Items",
     "path":"folders/Objects/Items.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_item",
+    "path":"objects/obj_item/obj_item.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_stick",
+    "path":"sprites/spr_stick/spr_stick.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
