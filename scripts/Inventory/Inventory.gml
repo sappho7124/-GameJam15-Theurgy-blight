@@ -33,6 +33,11 @@ function Inventory() constructor{
 		return _inventory_items[index].sprite
 	}
 	
+	item_get_equipable = function(_name){
+		var index = item_find(_name);
+		return _inventory_items[index].equipable
+	}
+	
 	item_add = function(_name, _quantity) {
 		var index = item_find(_name);
 		

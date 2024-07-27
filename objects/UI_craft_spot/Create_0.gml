@@ -8,8 +8,7 @@ function craft_in(_item,_ogx,_ogy,_name_obj,_ogscalex,_ogscaley) {
 	new_obj.name_item_obj=_name_obj
 	new_obj.scalex=_ogscalex
 	new_obj.scaley=_ogscaley
-    
-	show_debug_message($"current items in craft:{items_in}");
+	new_obj.equipped=0
 }
 
 items_in = [];

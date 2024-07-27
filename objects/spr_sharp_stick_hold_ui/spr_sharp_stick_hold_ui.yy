@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_stick",
+  "%Name":"spr_sharp_stick_hold_ui",
   "eventList":[],
   "managed":true,
-  "name":"obj_stick",
+  "name":"spr_sharp_stick_hold_ui",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_item_parent","path":"objects/obj_item_parent/obj_item_parent.yy",},"propertyId":{"name":"item_name","path":"objects/obj_item_parent/obj_item_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Wood\"",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_item_parent","path":"objects/obj_item_parent/obj_item_parent.yy",},"propertyId":{"name":"scale_set","path":"objects/obj_item_parent/obj_item_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
   ],
   "parent":{
-    "name":"Items",
-    "path":"folders/Objects/UI/Items.yy",
+    "name":"Bag_Sprites",
+    "path":"folders/Objects/UI/Bags/Bag_Sprites.yy",
   },
   "parentObjectId":{
     "name":"obj_item_parent",
