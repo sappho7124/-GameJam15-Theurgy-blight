@@ -1,3 +1,9 @@
+//Game setup
+#region
+	window_set_cursor(cr_none)
+	cursor_sprite = cursor_aim
+	depth=200
+#endregion
 //Variables for movement
 move_dir = 0;
 move_spd = 2;

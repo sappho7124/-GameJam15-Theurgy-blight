@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
   "%Name":"obj_crossbow",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_crossbow",
   "overriddenProperties":[],
   "parent":{
     "name":"Items",
-    "path":"folders/Objects/Items.yy",
+    "path":"folders/Objects/UI/Items.yy",
   },
   "parentObjectId":null,
   "persistent":false,
