@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_moving_light",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_moving_light",
   "overriddenProperties":[],
@@ -9,7 +11,10 @@
     "name":"Light",
     "path":"folders/Objects/Light.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_light",
+    "path":"objects/obj_light/obj_light.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
