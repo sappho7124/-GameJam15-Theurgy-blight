@@ -1,19 +1,21 @@
 {
   "$GMObject":"",
   "%Name":"UI_stick_bag",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"UI_stick_bag",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"UI_parent_bag","path":"objects/UI_parent_bag/UI_parent_bag.yy",},"propertyId":{"name":"item_spawn","path":"objects/UI_parent_bag/UI_parent_bag.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Wood\"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"UI_parent_bag","path":"objects/UI_parent_bag/UI_parent_bag.yy",},"propertyId":{"name":"item_spawn_object","path":"objects/UI_parent_bag/UI_parent_bag.yy",},"resource":{"name":"obj_stick","path":"objects/obj_stick/obj_stick.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_stick",},
+  ],
   "parent":{
-    "name":"UI",
-    "path":"folders/Objects/UI.yy",
+    "name":"Bags",
+    "path":"folders/Objects/UI/Bags.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"UI_parent_bag",
+    "path":"objects/UI_parent_bag/UI_parent_bag.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_stick_bag",
-    "path":"sprites/spr_stick_bag/spr_stick_bag.yy",
+    "name":"spr_stick_bag_ui",
+    "path":"sprites/spr_stick_bag_ui/spr_stick_bag_ui.yy",
   },
   "spriteMaskId":null,
   "visible":true,

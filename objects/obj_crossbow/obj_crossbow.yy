@@ -4,12 +4,18 @@
   "eventList":[],
   "managed":true,
   "name":"obj_crossbow",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_item_parent","path":"objects/obj_item_parent/obj_item_parent.yy",},"propertyId":{"name":"item_name","path":"objects/obj_item_parent/obj_item_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Crossbow\"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_item_parent","path":"objects/obj_item_parent/obj_item_parent.yy",},"propertyId":{"name":"scale_set","path":"objects/obj_item_parent/obj_item_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"4",},
+  ],
   "parent":{
     "name":"Items",
-    "path":"folders/Objects/Items.yy",
+    "path":"folders/Objects/UI/Items.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_item_parent",
+    "path":"objects/obj_item_parent/obj_item_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"crossbow",
-    "path":"sprites/crossbow/crossbow.yy",
+    "name":"spr_crossbow",
+    "path":"sprites/spr_crossbow/spr_crossbow.yy",
   },
   "spriteMaskId":null,
   "visible":true,

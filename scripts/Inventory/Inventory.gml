@@ -1,5 +1,17 @@
 function Inventory() constructor{
 	_inventory_items = [];
+	_equipped = {
+		left : {
+			represent : "Empty",
+			name_item_obj : noone,
+			scale : 1,
+		},
+		right : {
+			represent : "Empty",
+			name_item_obj : noone,
+			scale : 1,
+		},
+	};
 	
 	//items must be created with this function before interacting with them
 	item_create = function(_name,_max_quantity,_sprite,_equipable=false,_two_handed=false){
@@ -31,6 +43,11 @@ function Inventory() constructor{
 	item_get_sprite = function(_name){
 		var index = item_find(_name);
 		return _inventory_items[index].sprite
+	}
+	
+	item_get_equipable = function(_name){
+		var index = item_find(_name);
+		return _inventory_items[index].equipable
 	}
 	
 	item_add = function(_name, _quantity) {

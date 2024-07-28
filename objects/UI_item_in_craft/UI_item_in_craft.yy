@@ -31,6 +31,7 @@
     {"$GMObjectProperty":"v1","%Name":"represent","filters":[],"listItems":[],"multiselect":false,"name":"represent","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"spr_test\"","varType":2,},
     {"$GMObjectProperty":"v1","%Name":"scalex","filters":[],"listItems":[],"multiselect":false,"name":"scalex","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"scaley","filters":[],"listItems":[],"multiselect":false,"name":"scaley","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"equipped","filters":[],"listItems":[],"multiselect":false,"name":"equipped","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

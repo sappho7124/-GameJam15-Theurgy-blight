@@ -1,0 +1,1 @@
+cursor_sprite = cursor_aim
