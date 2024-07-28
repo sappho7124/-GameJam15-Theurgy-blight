@@ -12,8 +12,8 @@
   "name":"drop_interactable_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Drops and interactables",
-    "path":"folders/Objects/Drops and interactables.yy",
+    "name":"drops",
+    "path":"folders/Objects/Drops and interactables/drops.yy",
   },
   "parentObjectId":null,
   "persistent":false,

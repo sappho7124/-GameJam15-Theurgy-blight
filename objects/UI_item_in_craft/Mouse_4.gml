@@ -2,10 +2,12 @@ switch equipped
 {
     case 1:
         Player.equip(1,"Empty")
+		obj_inventory.inventory._equipped.left.represent = "Empty"
     break;
 
     case 2:
 		Player.equip(2,"Empty")
+		obj_inventory.inventory._equipped.right.represent = "Empty"
     break;
 
     default:

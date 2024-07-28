@@ -11,7 +11,14 @@ function craft_in(_item,_ogx,_ogy,_name_obj,_ogscalex,_ogscaley) {
 	new_obj.equipped=0
 }
 
+function update_UI(){
+	UI_left_hand_spot.update()
+	UI_right_hand_spot.update()
+}
+
 items_in = [];
+
+update_done = false
 
 recipes = [
 	["Sharp",["Wood","Wood"]]

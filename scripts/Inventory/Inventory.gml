@@ -1,5 +1,17 @@
 function Inventory() constructor{
 	_inventory_items = [];
+	_equipped = {
+		left : {
+			represent : "Empty",
+			name_item_obj : noone,
+			scale : 1,
+		},
+		right : {
+			represent : "Empty",
+			name_item_obj : noone,
+			scale : 1,
+		},
+	};
 	
 	//items must be created with this function before interacting with them
 	item_create = function(_name,_max_quantity,_sprite,_equipable=false,_two_handed=false){

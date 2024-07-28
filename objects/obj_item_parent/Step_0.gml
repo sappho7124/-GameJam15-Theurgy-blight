@@ -12,5 +12,6 @@ else {
 	} else{
 		obj_inventory.inventory.item_add(item_name,1)
 	}
+	transit = false
 	instance_destroy()
 }
