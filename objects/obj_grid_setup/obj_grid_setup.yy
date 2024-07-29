@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_table",
-  "eventList":[],
+  "%Name":"obj_grid_setup",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_table",
+  "name":"obj_grid_setup",
   "overriddenProperties":[],
   "parent":{
-    "name":"Soft_Objects",
-    "path":"folders/Objects/Soft_Objects.yy",
+    "name":"Grid_AI",
+    "path":"folders/Objects/Grid_AI.yy",
   },
-  "parentObjectId":{
-    "name":"obj_parent_soft",
-    "path":"objects/obj_parent_soft/obj_parent_soft.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_test_big",
-    "path":"sprites/spr_test_big/spr_test_big.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
