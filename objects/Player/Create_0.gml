@@ -3,6 +3,7 @@
 	window_set_cursor(cr_none)
 	cursor_sprite = cursor_aim
 	depth=200
+	can_move = true;
 	left_hand="Empty";
 	right_hand="Empty";
 #endregion

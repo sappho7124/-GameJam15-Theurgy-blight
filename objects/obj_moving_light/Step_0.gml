@@ -1,2 +1,2 @@
-x = Player.x
-y = Player.y
+x = follow.x
+y = follow.y
