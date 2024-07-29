@@ -4,13 +4,27 @@ function create_light(_lx,_ly,_depth=200,_size=0,_color=c_white,_str=1){
 	new_light.color = _color
 	new_light.str = _str
 }
-function create_light_follow(_depth=200,_size=0,_color=c_white,_str=1,_obj=noone){
+function create_light_follow(_depth=200,_size=0,_color=c_white,_str=1,_obj=noone,_xoffset=0,_yoffset=0){
 	var new_light = instance_create_depth(0,0,_depth,obj_moving_light);
 	new_light.size = _size
 	new_light.color = _color
 	new_light.str = _str
 	new_light.follow = _obj
+	new_light.xoffset = _xoffset
+	new_light.yoffset = _yoffset
 }
+
+function create_light_follow_circle(_depth=200,_size=0,_color=c_white,_str=1,_obj=noone,_distance=0,_xangleoffset=0,_yangleoffset=0){
+	var new_light = instance_create_depth(0,0,_depth,obj_moving_light_circle);
+	new_light.size = _size
+	new_light.color = _color
+	new_light.str = _str
+	new_light.follow = _obj
+	new_light.distance = _distance
+	new_light.xangleoffset = _xangleoffset
+	new_light.yangleoffset = _yangleoffset
+}
+
 
 //Resize the application surface to be lower res (for pixel games + performance boost)
 surface_resize(application_surface,320,180);

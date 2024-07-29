@@ -19,7 +19,7 @@ function go_back(){
 
 going_back = false
 offset = 15
-
+	
 path = path_add()
 targetx = 0
 targety = 0

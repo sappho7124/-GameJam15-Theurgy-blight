@@ -12,7 +12,7 @@ inventory.item_create("Cloth",4,spr_cloth);
 inventory.item_create("Arrows",25,spr_test);
 //Tools
 inventory.item_create("Candle",3,spr_test);
-inventory.item_create("Lantern",1,spr_lantern,true,false);
+inventory.item_create("Lantern",1,spr_lantern_top,true,false);
 //Weapons
 inventory.item_create("Axe",1,spr_test,true,true);
 inventory.item_create("Sharp_Stick",2,spr_test,true,false);

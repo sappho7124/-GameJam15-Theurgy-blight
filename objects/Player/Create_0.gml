@@ -4,8 +4,11 @@
 	cursor_sprite = cursor_aim
 	depth=200
 	can_move = true;
-	left_hand="Empty";
-	right_hand="Empty";
+	left_hand=instance_create_depth(x,y,depth,obj_empty_left)
+	right_hand = instance_create_depth(x,y,depth,obj_empty_left,
+				{
+					right : true
+				});
 #endregion
 //Variables for movement
 move_dir = 0;
@@ -27,15 +30,46 @@ function equip(_slot,_item) {
 	switch _slot
 	{
 	    case 1:
-	        left_hand = _item
+			switch _item //equipment spawn
+			{
+			case "Empty":
+				instance_destroy(left_hand)
+				left_hand = instance_create_depth(x,y,depth,obj_empty_left)
+			break;
+			case "Lantern":
+				instance_destroy(left_hand)
+				left_hand = instance_create_depth(x,y,depth,obj_lantern_left)
+			break;
+			default:
+				show_debug_message("An error ocurred when setting up the equipment on the left hand")
+			}
 	    break;
 
 	    case 2:
-	        right_hand = _item
+			switch _item //equipment spawn
+			{
+			case "Empty":
+				instance_destroy(right_hand)
+				right_hand = instance_create_depth(x,y,depth,obj_empty_left,
+				{
+					right : true
+				});
+			break;
+			case "Lantern":
+				instance_destroy(right_hand)
+				right_hand = instance_create_depth(x,y,depth,obj_lantern_left,
+				{
+					right : true
+				});
+				
+			break;
+			default:
+				show_debug_message("An error ocurred when setting up the equipment on the right hand")
+			}
 	    break;
 
 	    default:
-	        show_debug_message("An error ocurred when setting up the equipment")
+	        show_debug_message("An error ocurred when setting up the hand")
 	} 
 	show_debug_message($"Equipped: {left_hand},{right_hand}")
 	
