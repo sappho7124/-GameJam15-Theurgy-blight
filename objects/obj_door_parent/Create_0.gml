@@ -2,14 +2,14 @@ dist = 0;
 threshold = 50;
 depth = 199;
 image_speed = 0;
-
+og_angle = image_angle
 open = false
 
 function open_close(){
 	open = !open
 	if open {
-		image_angle = 0
+		image_angle = og_angle
 	} else{
-		image_angle = 90
+		image_angle = og_angle + 90
 	}
 }
