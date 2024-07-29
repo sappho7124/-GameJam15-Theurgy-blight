@@ -3,7 +3,7 @@
   "%Name":"spr_cloth_bag_ui",
   "bboxMode":0,
   "bbox_bottom":43,
-  "bbox_left":18,
+  "bbox_left":17,
   "bbox_right":46,
   "bbox_top":20,
   "collisionKind":1,
