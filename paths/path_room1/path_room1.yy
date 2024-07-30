@@ -1,0 +1,26 @@
+{
+  "$GMPath":"",
+  "%Name":"path_room1",
+  "closed":false,
+  "kind":1,
+  "name":"path_room1",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":1152.0,"y":96.0,},
+    {"speed":100.0,"x":1760.0,"y":96.0,},
+    {"speed":100.0,"x":1888.0,"y":96.0,},
+    {"speed":100.0,"x":1952.0,"y":192.0,},
+    {"speed":100.0,"x":1888.0,"y":256.0,},
+    {"speed":100.0,"x":1632.0,"y":256.0,},
+    {"speed":100.0,"x":1312.0,"y":256.0,},
+    {"speed":100.0,"x":1184.0,"y":256.0,},
+    {"speed":100.0,"x":1120.0,"y":192.0,},
+    {"speed":100.0,"x":1152.0,"y":96.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

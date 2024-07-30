@@ -1,0 +1,24 @@
+{
+  "$GMPath":"",
+  "%Name":"path_preorbroom2",
+  "closed":false,
+  "kind":1,
+  "name":"path_preorbroom2",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":96.0,"y":864.0,},
+    {"speed":100.0,"x":192.0,"y":928.0,},
+    {"speed":100.0,"x":288.0,"y":928.0,},
+    {"speed":100.0,"x":384.0,"y":864.0,},
+    {"speed":100.0,"x":288.0,"y":768.0,},
+    {"speed":100.0,"x":192.0,"y":768.0,},
+    {"speed":100.0,"x":192.0,"y":768.0,},
+    {"speed":100.0,"x":96.0,"y":864.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}
