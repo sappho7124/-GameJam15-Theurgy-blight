@@ -40,6 +40,18 @@ function equip(_slot,_item) {
 				instance_destroy(left_hand)
 				left_hand = instance_create_depth(x,y,depth,obj_lantern_left)
 			break;
+			case "Sharp_Stick":
+				instance_destroy(left_hand)
+				left_hand = instance_create_depth(x,y,depth,obj_stick_sharp_left)
+			break;
+			case "Bandages":
+				instance_destroy(left_hand)
+				left_hand = instance_create_depth(x,y,depth,obj_bandages_left)
+			break;
+			case "Crossbow":
+				instance_destroy(left_hand)
+				left_hand = instance_create_depth(x,y,depth,obj_crossbow_left)
+			break;
 			default:
 				show_debug_message("An error ocurred when setting up the equipment on the left hand")
 			}
@@ -61,7 +73,27 @@ function equip(_slot,_item) {
 				{
 					right : true
 				});
-				
+			break;
+			case "Sharp_Stick":
+				instance_destroy(right_hand)
+				right_hand = instance_create_depth(x,y,depth,obj_stick_sharp_left,
+				{
+					right : true
+				});
+			break;
+			case "Bandages":
+				instance_destroy(right_hand)
+				right_hand = instance_create_depth(x,y,depth,obj_bandages_left,
+				{
+					right : true
+				});
+			break;
+			case "Crossbow":
+				instance_destroy(right_hand)
+				right_hand = instance_create_depth(x,y,depth,obj_crossbow_left,
+				{
+					right : true
+				});
 			break;
 			default:
 				show_debug_message("An error ocurred when setting up the equipment on the right hand")

@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_hand_spot",
-    "path":"sprites/spr_hand_spot/spr_hand_spot.yy",
+    "name":"spr_hand_spot_right",
+    "path":"sprites/spr_hand_spot_right/spr_hand_spot_right.yy",
   },
   "spriteMaskId":null,
   "visible":true,

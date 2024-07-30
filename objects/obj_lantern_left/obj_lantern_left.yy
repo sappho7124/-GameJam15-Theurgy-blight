@@ -12,8 +12,8 @@
     "path":"folders/Objects/Arms.yy",
   },
   "parentObjectId":{
-    "name":"obj_empty_left",
-    "path":"objects/obj_empty_left/obj_empty_left.yy",
+    "name":"obj_one_arm_parent",
+    "path":"objects/obj_one_arm_parent/obj_one_arm_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
