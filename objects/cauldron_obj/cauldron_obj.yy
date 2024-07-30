@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
   "%Name":"cauldron_obj",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"cauldron_obj",
   "overriddenProperties":[],
   "parent":{
-    "name":"Hard_Objects",
-    "path":"folders/Objects/Hard_Objects.yy",
+    "name":"Soft_Objects",
+    "path":"folders/Objects/Soft_Objects.yy",
   },
   "parentObjectId":{
     "name":"obj_parent_hard",

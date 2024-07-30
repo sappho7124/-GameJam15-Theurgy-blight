@@ -1,0 +1,22 @@
+{
+  "$GMPath":"",
+  "%Name":"path_finalroom",
+  "closed":false,
+  "kind":1,
+  "name":"path_finalroom",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":1568.0,"y":1248.0,},
+    {"speed":100.0,"x":1728.0,"y":1344.0,},
+    {"speed":100.0,"x":1952.0,"y":1344.0,},
+    {"speed":100.0,"x":2048.0,"y":1248.0,},
+    {"speed":100.0,"x":1792.0,"y":1120.0,},
+    {"speed":100.0,"x":1568.0,"y":1248.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}
