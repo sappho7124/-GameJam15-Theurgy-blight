@@ -12,7 +12,7 @@ if (place_meeting(x, y, obj_enemy_parent)) {
     if (enemy_instance != noone) {
         with (enemy_instance) {
             // Assuming the enemy object has a variable named 'health'
-            hit_points -= 10; // damage_amount should be defined earlier in your code
+            hurt_enemy(10) // damage_amount should be defined earlier in your code
 			stun_enemy(10);
         }
 		if irandom(1){

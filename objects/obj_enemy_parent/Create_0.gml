@@ -41,7 +41,6 @@ attackcooldown= 0
 normal_sprite = sprite_index
 attacking = false;
 going_back = false;
-offset = 15;
 stunned = false;
 stun_duration = 0;
 

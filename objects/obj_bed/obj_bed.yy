@@ -6,12 +6,12 @@
   "name":"obj_bed",
   "overriddenProperties":[],
   "parent":{
-    "name":"Soft_Objects",
-    "path":"folders/Objects/Soft_Objects.yy",
+    "name":"Hard_Objects",
+    "path":"folders/Objects/Hard_Objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_parent_hard",
-    "path":"objects/obj_parent_hard/obj_parent_hard.yy",
+    "name":"obj_parent_soft",
+    "path":"objects/obj_parent_soft/obj_parent_soft.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

@@ -38,7 +38,7 @@ matrix_set(matrix_world,matrix_build(0,0,0,0,0,0,1,1,1));
 //Draw and blend the shadow surface to the application surface
 gpu_set_blendmode_ext(bm_zero,bm_src_color);
 shader_set(sh_shadsurf);
-draw_surface_ext(shad_surf,vx,vy,1,1,0,c_white,0.8);//This change how dark the game is
+draw_surface_ext(shad_surf,vx,vy,1,1,0,c_white,0.1);//This change how dark the game is
 
 
 //reset shader and blendmode 
