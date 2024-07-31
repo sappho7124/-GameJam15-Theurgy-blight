@@ -38,7 +38,6 @@ function go_back(){
 }
 
 going_back = false;
-offset = 15;
 stunned = false;
 stun_duration = 0;
 

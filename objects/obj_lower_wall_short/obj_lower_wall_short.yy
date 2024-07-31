@@ -6,8 +6,8 @@
   "name":"obj_lower_wall_short",
   "overriddenProperties":[],
   "parent":{
-    "name":"Soft_Objects",
-    "path":"folders/Objects/Soft_Objects.yy",
+    "name":"Hard_Objects",
+    "path":"folders/Objects/Hard_Objects.yy",
   },
   "parentObjectId":{
     "name":"obj_parent_hard",
