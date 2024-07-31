@@ -1,7 +1,7 @@
 {
   "$GMPath":"",
   "%Name":"path_entryroom",
-  "closed":false,
+  "closed":true,
   "kind":1,
   "name":"path_entryroom",
   "parent":{

@@ -9,7 +9,10 @@
     "name":"Soft_Objects",
     "path":"folders/Objects/Soft_Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_parent_hard",
+    "path":"objects/obj_parent_hard/obj_parent_hard.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -1,7 +1,7 @@
 {
   "$GMPath":"",
   "%Name":"path_preorbroom2",
-  "closed":false,
+  "closed":true,
   "kind":1,
   "name":"path_preorbroom2",
   "parent":{
