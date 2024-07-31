@@ -6,7 +6,7 @@ if (image_speed > 0)
 		var touching = instance_place(x,y,obj_enemy_parent)
 		if touching != -4 {
 			if object_get_parent(touching.object_index) = obj_enemy_parent {
-				touching.hit_points -= 2
+				touching.hurt_enemy(4)
 				touching.stun_enemy(30)
 			}
 		}

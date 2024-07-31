@@ -19,8 +19,28 @@ if hand_distance != -4 {
     if object_get_parent(hand_distance.object_index) == obj_door_parent && hand_distance.open{
         hand_distance.open_close();
         show_debug_message("open door");
-    }
+    } else if (hand_distance.object_index = Player) && !attacking && attackcooldown <= 0{
+		show_debug_message($"pogiado")
+		attacking = true
+	}
 }
+
+//
+if attacking && attackcooldown <= 0{
+	path_speed = 0
+	if (image_index >= image_number - 1) {
+		attacking = false
+		var touching = instance_place(x,y,Player)
+		if touching != -4 {
+			if touching.object_index = Player {
+				Player.take_damage(1)
+				attackcooldown = 120
+			}
+		}
+	}
+}
+
+if (attackcooldown > 0) attackcooldown -= 1
 
 if (going_back && path_position == 1) {
     path_start(normal_path, monster_speed, path_action_reverse, true);

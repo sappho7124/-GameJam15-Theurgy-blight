@@ -3,6 +3,7 @@
 	window_set_cursor(cr_none)
 	cursor_sprite = cursor_aim
 	depth=200
+	life=4;
 	can_move = true;
 	left_hand=instance_create_depth(x,y,depth,obj_empty_left)
 	right_hand = instance_create_depth(x,y,depth,obj_empty_left,
@@ -26,6 +27,24 @@ move_spd = 2;
 
 
 //Player functions
+function take_damage(_damage){
+	life -= _damage
+	obj_screenblood.update_screen_blood()
+	if (life >= 0) die()
+	show_debug_message($"hurt, life:{life}")
+}
+
+function heal(_points){
+	life += _points
+	if (life>4) life = 4
+	obj_screenblood.update_screen_blood()
+	show_debug_message($"healed, life:{life}")
+}
+
+function die(){
+
+}
+
 function equip(_slot,_item) {
 	switch _slot
 	{

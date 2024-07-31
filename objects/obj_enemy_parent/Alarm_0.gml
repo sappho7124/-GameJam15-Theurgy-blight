@@ -1,18 +1,22 @@
-path_delete(path)
-path = path_add()
+//track and follow
 
-targetx = Player.x
-targety = Player.y
+if !attacking{
+	path_delete(path)
+	path = path_add()
 
-mp_grid_path(obj_grid_setup.grid,path,x,y,targetx,targety,true)
+	targetx = Player.x
+	targety = Player.y
 
-path_start(path,monster_speed,path_action_stop,true)
+	mp_grid_path(obj_grid_setup.grid,path,x,y,targetx,targety,true)
 
-counter += 1
+	path_start(path,monster_speed,path_action_stop,true)
 
-if counter = 10{
-	go_back()
-} else{
-	//loop
-	alarm_set(0,60)
+	counter += 1
+
+	if counter = 10{
+		go_back()
+	} else{
+		//loop
+		alarm_set(0,60)
+	}
 }

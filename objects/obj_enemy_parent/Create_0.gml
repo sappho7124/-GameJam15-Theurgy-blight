@@ -37,6 +37,9 @@ function go_back(){
     show_debug_message("Go back executed");
 }
 
+attackcooldown= 0
+normal_sprite = sprite_index
+attacking = false;
 going_back = false;
 stunned = false;
 stun_duration = 0;
