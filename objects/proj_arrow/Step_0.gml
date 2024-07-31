@@ -14,7 +14,15 @@ if (place_meeting(x, y, obj_enemy_parent)) {
             // Assuming the enemy object has a variable named 'health'
             hit_points -= 10; // damage_amount should be defined earlier in your code
 			stun_enemy(10);
-			instance_destroy()
         }
+		if irandom(1){
+			instance_create_depth(x,y,201,drop_arrow)
+		}
+			instance_destroy()
     }
+}
+
+if (place_meeting(x, y, obj_parent_hard)) {
+	instance_create_depth(x,y,201,drop_arrow)
+	instance_destroy()
 }

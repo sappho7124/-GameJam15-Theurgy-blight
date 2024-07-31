@@ -1,4 +1,4 @@
-if !right{
+if !right && cursor_sprite != cursor_interact{
 	show_debug_message("left")
 	if cursor_sprite == cursor_aim {
 		if loaded {

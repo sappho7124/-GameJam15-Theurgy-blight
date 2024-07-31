@@ -25,6 +25,15 @@ function create_light_follow_circle(_depth=200,_size=0,_color=c_white,_str=1,_ob
 	new_light.yangleoffset = _yangleoffset
 }
 
+function create_light_explosion(_lx,_ly,_depth=200,_inisize=0,_finsize=1,_color=c_white,_str=1,_spd=1){
+	var new_light = instance_create_depth(_lx,_ly,_depth,obj_explosion_light);	
+	new_light.inisize = _inisize
+	new_light.finsize = _finsize
+	new_light.color = _color
+	new_light.str = _str
+	new_light.spd = _spd
+}
+
 
 //Resize the application surface to be lower res (for pixel games + performance boost)
 surface_resize(application_surface,320,180);

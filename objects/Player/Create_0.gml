@@ -52,6 +52,18 @@ function equip(_slot,_item) {
 				instance_destroy(left_hand)
 				left_hand = instance_create_depth(x,y,depth,obj_crossbow_left)
 			break;
+			case "Flask_Sulfur":
+				instance_destroy(left_hand)
+				left_hand = instance_create_depth(x,y,depth,obj_sulfur_left)
+			break;
+			case "Flask_Silver":
+				instance_destroy(left_hand)
+				left_hand = instance_create_depth(x,y,depth,obj_silver_left)
+			break;
+			case "Flask_Lead":
+				instance_destroy(left_hand)
+				left_hand = instance_create_depth(x,y,depth,obj_lead_left)
+			break;
 			default:
 				show_debug_message("An error ocurred when setting up the equipment on the left hand")
 			}
@@ -91,6 +103,27 @@ function equip(_slot,_item) {
 			case "Crossbow":
 				instance_destroy(right_hand)
 				right_hand = instance_create_depth(x,y,depth,obj_crossbow_left,
+				{
+					right : true
+				});
+			break;
+			case "Flask_Sulfur":
+				instance_destroy(right_hand)
+				right_hand = instance_create_depth(x,y,depth,obj_sulfur_left,
+				{
+					right : true
+				});
+			break;
+			case "Flask_Silver":
+				instance_destroy(right_hand)
+				right_hand = instance_create_depth(x,y,depth,obj_silver_left,
+				{
+					right : true
+				});
+			break;
+			case "Flask_Lead":
+				instance_destroy(right_hand)
+				right_hand = instance_create_depth(x,y,depth,obj_lead_left,
 				{
 					right : true
 				});

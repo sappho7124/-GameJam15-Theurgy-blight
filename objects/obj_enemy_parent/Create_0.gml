@@ -1,13 +1,20 @@
 // Add the stun_enemy function
 function stun_enemy(_stun_duration){
-    // Set a flag or variable to indicate that the enemy is stunned
-    stunned = true;
-    // Set the duration of the stun
-    stun_duration = _stun_duration; // For example, stun for 60 steps (1 second)
-    // Stop the enemy's movement
-    monster_speed = 0;
-	image_speed = 0;
-    show_debug_message("Enemy stunned");
+	if stunnable{
+	    // Set a flag or variable to indicate that the enemy is stunned
+	    stunned = true;
+	    // Set the duration of the stun
+	    stun_duration = _stun_duration; // For example, stun for 60 steps (1 second)
+	    // Stop the enemy's movement
+	    monster_speed = 0;
+		image_speed = 0;
+	    show_debug_message("Enemy stunned");
+	}
+}
+
+function hurt_enemy(_damage){
+	
+	hit_points -= _damage
 }
 
 // Go back function
