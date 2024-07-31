@@ -6,6 +6,7 @@
   "name":"drop_crossbow",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"drop_interactable_parent","path":"objects/drop_interactable_parent/drop_interactable_parent.yy",},"propertyId":{"name":"item","path":"objects/drop_interactable_parent/drop_interactable_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Crossbow\"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"drop_interactable_parent","path":"objects/drop_interactable_parent/drop_interactable_parent.yy",},"propertyId":{"name":"scale_drop","path":"objects/drop_interactable_parent/drop_interactable_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1.75",},
   ],
   "parent":{
     "name":"drops",

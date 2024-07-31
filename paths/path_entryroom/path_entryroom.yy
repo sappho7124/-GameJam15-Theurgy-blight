@@ -1,0 +1,23 @@
+{
+  "$GMPath":"",
+  "%Name":"path_entryroom",
+  "closed":true,
+  "kind":1,
+  "name":"path_entryroom",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":672.0,"y":672.0,},
+    {"speed":100.0,"x":864.0,"y":768.0,},
+    {"speed":100.0,"x":992.0,"y":672.0,},
+    {"speed":100.0,"x":928.0,"y":576.0,},
+    {"speed":100.0,"x":832.0,"y":576.0,},
+    {"speed":100.0,"x":704.0,"y":608.0,},
+    {"speed":100.0,"x":672.0,"y":672.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

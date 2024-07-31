@@ -1,0 +1,1 @@
+audio_play_sound(Song_Main,0,true)

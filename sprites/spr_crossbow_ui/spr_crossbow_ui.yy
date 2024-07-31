@@ -1,8 +1,8 @@
 {
   "$GMSprite":"",
   "%Name":"spr_crossbow_ui",
-  "bboxMode":0,
-  "bbox_bottom":40,
+  "bboxMode":2,
+  "bbox_bottom":38,
   "bbox_left":25,
   "bbox_right":36,
   "bbox_top":19,

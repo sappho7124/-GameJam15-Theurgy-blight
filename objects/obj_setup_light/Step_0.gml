@@ -25,18 +25,7 @@ with(obj_parent_hard){
 vertex_end(vb);
 
 
-//view movement controls
-vy += (keyboard_check(vk_down)-keyboard_check(vk_up))*4; 
-vx += (keyboard_check(vk_right)-keyboard_check(vk_left))*4; 
+//follow player
+vy = Player.y - 180;
+vx = Player.x - 320;
 camera_set_view_pos(view_camera[0],vx,vy);
-
-
-
-//add lights by left clicking. For testing purposes
-if (mouse_check_button_pressed(mb_left)){
-		instance_create_depth(mouse_x,mouse_y,depth,obj_light);	
-}
-if (mouse_check_button_pressed(mb_right)){
-	repeat(100)
-		instance_create_depth(mouse_x,mouse_y,depth,obj_light);	
-}
