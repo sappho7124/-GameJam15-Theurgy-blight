@@ -14,4 +14,7 @@ for (var i = 0; i < ds_list_size(instances); i++) {
     }
 }
 
+
+
+audio_play_sound(Explotion, 1, false);
 instance_destroy()

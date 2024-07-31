@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"Title_Background",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"Title_Background",
   "overriddenProperties":[],
@@ -27,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_Title_Background",
+    "path":"sprites/spr_Title_Background/spr_Title_Background.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

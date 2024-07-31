@@ -2,7 +2,7 @@ if (hit_points <= 0) instance_destroy();
 
 image_angle = direction;
 
-var hand_distance = collision_line_first(x, y, x + lengthdir_x(25, direction), y + lengthdir_y(25, direction), [Player, obj_door_parent], false, true);
+var hand_distance = collision_line_first(x, y, x + lengthdir_x(10, direction), y + lengthdir_y(10, direction), [Player, obj_door_parent], false, true);
 var infront = collision_line_first(x, y, x + lengthdir_x(view_distance, direction), y + lengthdir_y(view_distance, direction), [Player, obj_parent_hard], false, true);
 var left_view = collision_line_first(x, y, x + lengthdir_x(view_distance, direction - offset), y + lengthdir_y(view_distance, direction - 15), [Player, obj_parent_hard], false, true);
 var right_view = collision_line_first(x, y, x + lengthdir_x(view_distance, direction + offset), y + lengthdir_y(view_distance, direction + 15), [Player, obj_parent_hard], false, true);

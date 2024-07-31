@@ -12,5 +12,5 @@ for (var i = 0; i < ds_list_size(instances); i++) {
 		stun_enemy(80);
     }
 }
-
+audio_play_sound(Flashbang, 1, false);
 instance_destroy()

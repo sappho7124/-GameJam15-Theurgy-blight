@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_stairsreal",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_stairsreal",
   "overriddenProperties":[],
@@ -9,10 +11,7 @@
     "name":"Hard_Objects",
     "path":"folders/Objects/Hard_Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_parent_soft",
-    "path":"objects/obj_parent_soft/obj_parent_soft.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -7,6 +7,7 @@ if right && cursor_sprite != cursor_interact{
 				speed : 3,
 				direction : Player.aimDir
 			});
+			audio_play_sound(Crossbow_shoot, 1, false);
 			loaded = false
 		} else {
 			if obj_inventory.inventory.item_get_quantity("Arrows") > 0 {
