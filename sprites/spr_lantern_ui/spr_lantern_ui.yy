@@ -3,7 +3,7 @@
   "%Name":"spr_lantern_ui",
   "bboxMode":0,
   "bbox_bottom":54,
-  "bbox_left":18,
+  "bbox_left":6,
   "bbox_right":40,
   "bbox_top":22,
   "collisionKind":1,
