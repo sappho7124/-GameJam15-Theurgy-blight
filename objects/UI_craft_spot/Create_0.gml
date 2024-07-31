@@ -9,6 +9,8 @@ function craft_in(_item,_ogx,_ogy,_name_obj,_ogscalex,_ogscaley) {
 	new_obj.scalex=_ogscalex
 	new_obj.scaley=_ogscaley
 	new_obj.equipped=0
+	
+	UI_craft_button.check_for_craft()
 }
 
 function update_UI(){
@@ -19,8 +21,3 @@ function update_UI(){
 items_in = [];
 
 update_done = false
-
-recipes = [
-	["Sharp",["Wood","Wood"]]
-	
-];

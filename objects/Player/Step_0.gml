@@ -24,10 +24,10 @@ if can_move{
 		yspd = lengthdir_y(_spd, move_dir)
 	
 		//collision
-		if place_meeting(x+xspd,y,obj_parent_hard){
+		if place_meeting(x+xspd,y,[obj_parent_hard,obj_parent_soft]){
 			xspd = 0;
 		}
-		if place_meeting(x,y+yspd,obj_parent_hard){
+		if place_meeting(x,y+yspd,[obj_parent_hard,obj_parent_soft]){
 			yspd = 0;
 		}
 	

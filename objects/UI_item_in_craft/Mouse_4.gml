@@ -12,6 +12,7 @@ switch equipped
 
     default:
         array_remove_by_value(UI_craft_spot.items_in,represent);
+		UI_craft_button.check_for_craft()
 } 
 
 instance_create_layer(mouse_x, mouse_y, "GUI", name_item_obj);
