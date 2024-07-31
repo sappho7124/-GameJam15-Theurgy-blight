@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_candel",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_candel",
   "overriddenProperties":[],
@@ -10,8 +12,8 @@
     "path":"folders/Objects/Soft_Objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_parent_hard",
-    "path":"objects/obj_parent_hard/obj_parent_hard.yy",
+    "name":"obj_parent_soft",
+    "path":"objects/obj_parent_soft/obj_parent_soft.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

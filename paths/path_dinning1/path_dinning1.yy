@@ -1,7 +1,7 @@
 {
   "$GMPath":"",
   "%Name":"path_dinning1",
-  "closed":false,
+  "closed":true,
   "kind":0,
   "name":"path_dinning1",
   "parent":{
